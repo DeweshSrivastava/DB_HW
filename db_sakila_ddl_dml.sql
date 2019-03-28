@@ -65,6 +65,7 @@ WHERE first_name='HARPO' AND last_name='WILLIAMS';
 -- PART 5 
 -- 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
 SHOW CREATE TABLE address; 
+-- DESCRIBE address; 
 
 -- PART 6
 -- 6a. Use JOIN to display the first and last names, as well as the address, of each staff member. 
@@ -232,15 +233,3 @@ SELECT * FROM top_revenues_by_genre;
 
 -- 8c. You find that you no longer need the view top_five_genres. Write a query to delete it.
 DROP VIEW top_revenues_by_genre;
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
